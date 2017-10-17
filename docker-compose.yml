@@ -1,0 +1,17 @@
+version: '3'
+services:
+    web:
+        restart: always
+        build: ./nginx/
+        ports:
+            - "80:80"
+            - "3000:3000"
+        volumes:
+            - sites:/usr/share/nginx/html
+    builder:
+        build: ./builder/
+        volumes:
+            - sites:/sites
+            - ./keys/:/root/.ssh
+volumes:
+    sites: 

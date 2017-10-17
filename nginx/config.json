@@ -1,0 +1,9 @@
+{
+    "sites": [
+        {
+            "name": "nambawan",
+            "git": "git@github.com:f3nry/nambawanadventures.git",
+            "domains": ["nambawanadventures.com", "www.nambawanadventures.com"]
+        }
+    ]
+}

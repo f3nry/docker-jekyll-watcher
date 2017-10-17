@@ -1,0 +1,6 @@
+- use config to generate repos
+- switch to incremental build and don't wipe the directory every time
+- watch github repos every couple minutes
+- hide ssh keys if commiting this repo
+- write readme
+- deploy to google cloud!
